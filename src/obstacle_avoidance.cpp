@@ -32,5 +32,4 @@ int main(int argc,char** argv)
     ros::Subscriber sub = node.subscribe("/vrep/vehicle/frontSonar",1,callback);
     
     ros::spin();
-    return 0;
 }
